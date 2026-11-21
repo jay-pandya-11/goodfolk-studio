@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+*/.next/
+*/dist/
+*/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.local
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+credentials.json
+service-account*.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.swp
+
+# Test and tool artifacts
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+
+# Uploads & Media
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
